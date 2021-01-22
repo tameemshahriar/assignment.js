@@ -35,7 +35,7 @@ function budgetCalculator(watch, phone, laptop) {
 function hotelCost(Days) {
     var totalBill = 0;
     if (Days <= 0) {
-        return "Days can not be a negetive vaue.";
+        return "Days can not be a negative value.";
     }
     if (Days > 0) {
         if (Days >= 1 && Days <= 10) {
